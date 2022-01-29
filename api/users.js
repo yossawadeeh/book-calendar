@@ -38,6 +38,8 @@ router
           message: "Internal Server Error",
         });
       user = [{ id: results.user_id, ...user }];
+      // let id = results.insertId
+      // console.log(id)
       const result = {
         status: 200,
         data: user,
