@@ -5,7 +5,7 @@ const db = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
     password : '',
-    database : 'Calendar'
+    database : 'calendar'
   })
  
 // ทำการเชื่อมต่อกับฐานข้อมูล 
